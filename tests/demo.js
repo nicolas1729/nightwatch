@@ -14,7 +14,6 @@ module.exports = {
         browser.end()
     },
 
-    // On teste le résultat de ce tutoriel
     // https://www.grafikart.fr/tutoriels/symfony/champs-imbriques-888
     'Select region': ''+function (browser) {
       let selectRegion = '//select[@id="appbundle_medecin_region"]'
